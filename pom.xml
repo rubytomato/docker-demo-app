@@ -6,7 +6,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.14.RELEASE</version>
+		<version>1.5.15.RELEASE</version>
 		<relativePath/>
 	</parent>
 
@@ -99,8 +99,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<compilerArgs>
-						<arg>-Xlint:all,-options,-path</arg>
+						<arg>-Xlint:all</arg>
 					</compilerArgs>
+					<verbose>true</verbose>
 				</configuration>
 			</plugin>
 		</plugins>
